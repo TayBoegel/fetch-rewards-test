@@ -18,7 +18,7 @@ public class ProductPageObjects extends BasePage {
 	}
 	
 	public WebElement getClickedLikeBtn() {
-		return getDriver().findElement(By.xpath("//div[@aria-label='Liked']"));
+		return getDriver().findElement(By.cssSelector("div[aria-label='Liked']"));
 		
 	}
 	
